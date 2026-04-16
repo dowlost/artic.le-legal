@@ -70,7 +70,7 @@ The pages are self-contained (single HTML + one CSS file), so moving them to any
 
 ## Before you submit to Facebook — 10-point checklist
 
-1. **Replace `privacy@artic.le` and `support@artic.le`** with email addresses that actually forward to an inbox you check. If you don't have `artic.le` as a domain yet, use a real address you own (e.g. `you+privacy@gmail.com`). Reviewers test these.
+1. **Verify `diogodow@gmail.com`** forwards to an inbox you check. Reviewers test these.
 2. **Verify all three URLs return HTTP 200** when opened in an incognito browser window. No 404s, no redirects to a login page, no "site under construction."
 3. **The data deletion page must be reachable from the privacy policy** — I already linked them cross-wise in both language sets.
 4. **Visit each URL from your phone** — Facebook reviewers frequently use mobile. The pages are responsive, but check for yourself.
