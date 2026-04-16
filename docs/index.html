@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Artic.le — Legal Documents</title>
+<meta name="description" content="Privacy policy, terms of service, and data deletion instructions for Artic.le.">
+<link rel="stylesheet" href="./styles.css">
+<script>
+  // Auto-redirect to preferred language based on browser setting
+  (function() {
+    var lang = (navigator.language || navigator.userLanguage || 'en').toLowerCase();
+    if (lang.indexOf('pt') === 0) {
+      // e.g., they landed here from Facebook review looking for /privacy, handle both
+      var path = window.location.hash.replace('#', '');
+      if (path === 'privacy') { window.location.replace('./pt/politica-de-privacidade.html'); return; }
+      if (path === 'terms') { window.location.replace('./pt/termos-de-uso.html'); return; }
+      if (path === 'data-deletion') { window.location.replace('./pt/exclusao-de-dados.html'); return; }
+    } else {
+      var path = window.location.hash.replace('#', '');
+      if (path === 'privacy') { window.location.replace('./en/privacy-policy.html'); return; }
+      if (path === 'terms') { window.location.replace('./en/terms-of-service.html'); return; }
+      if (path === 'data-deletion') { window.location.replace('./en/data-deletion.html'); return; }
+    }
+  })();
+</script>
+</head>
+<body>
+<div class="container">
+
+<header class="brand">
+  <span class="brand-mark">A</span>
+  <span class="brand-name">Artic<span class="brand-dot">.</span>le</span>
+</header>
+
+<h1>Legal &amp; Privacy</h1>
+<p class="last-updated">Documentos legais · Legal documents</p>
+
+<h2>English</h2>
+<ul>
+  <li><a href="./en/privacy-policy.html">Privacy Policy</a></li>
+  <li><a href="./en/terms-of-service.html">Terms of Service</a></li>
+  <li><a href="./en/data-deletion.html">Data Deletion Instructions</a></li>
+</ul>
+
+<h2>Português</h2>
+<ul>
+  <li><a href="./pt/politica-de-privacidade.html">Política de Privacidade</a></li>
+  <li><a href="./pt/termos-de-uso.html">Termos de Uso</a></li>
+  <li><a href="./pt/exclusao-de-dados.html">Instruções de Exclusão de Dados</a></li>
+</ul>
+
+<footer>
+  <p>
+    Contact / Contato: <a href="mailto:privacy@artic.le">privacy@artic.le</a> · <a href="mailto:support@artic.le">support@artic.le</a>
+  </p>
+  <p>
+    © 2026 Artic.le
+  </p>
+</footer>
+
+</div>
+</body>
+</html>
